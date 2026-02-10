@@ -30,11 +30,12 @@ We welcome:
   - Next.js
   - Flutter
 
-- Full-Stack Web Development
 - Server-Side Development
   - Python
   - JavaScript/TypeScript
   - Java
+
+- Full-Stack Web Development
 
 ### Data & Systems
 
@@ -54,7 +55,6 @@ We welcome:
   - Internet of Things (IoT)
   - Software Development Life Cycle (SDLC)
   - Object-Oriented Programming (OOP)
-  - XML
 
 > 📈 **Our course offerings continue to expand as the hub grows.**
 
@@ -105,13 +105,13 @@ API routes are located in the `pages/api` directory and are automatically mapped
 Example:
 
 ```text
-http://localhost:3000/api/hello
+http://localhost:3000/api/base
 ```
 
 You can edit this endpoint in:
 
 ```text
-pages/api/hello.ts
+pages/api/base.ts
 ```
 
 ---
