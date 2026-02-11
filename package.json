@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "demo": "ngrok http --domain=maryalice-contrivable-nonretroactively.ngrok-free.dev 3000"
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",

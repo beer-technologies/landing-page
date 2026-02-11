@@ -25,11 +25,11 @@ export default function Home() {
         <meta property="og:image" content={siteMetadata.ogImage} />
         <meta property="og:url" content={siteMetadata.url} />
 
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={siteMetadata.title} />
-        <meta name="twitter:description" content={siteMetadata.description} />
-        <meta name="twitter:image" content={siteMetadata.ogImage} />
+        {/* X (Formerly Twitter) */}
+        <meta name="x:card" content="summary_large_image" />
+        <meta name="x:title" content={siteMetadata.title} />
+        <meta name="x:description" content={siteMetadata.description} />
+        <meta name="x:image" content={siteMetadata.ogImage} />
       </Head>
       <Layout>
         <HeroSection />

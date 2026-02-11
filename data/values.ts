@@ -1,5 +1,12 @@
-import { Award, Target, Lightbulb, Shield, Heart, Users } from 'lucide-react';
-import type { LucideIcon } from 'lucide-react';
+import {
+  Award,
+  Target,
+  Lightbulb,
+  Shield,
+  Heart,
+  Users,
+  type LucideIcon,
+} from 'lucide-react';
 
 export interface Value {
   title: string;

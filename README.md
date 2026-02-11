@@ -4,8 +4,6 @@
 
 Be’er Technologies is an African EdTech company dedicated to empowering individuals, organizations, and communities through practical digital mastery. We bridge the gap between learning and employability by delivering hands-on, industry-relevant technology education at scale.
 
-This repository contains the landing page for Be’er Tech, built with **Next.js**.
-
 ---
 
 ## About Us
