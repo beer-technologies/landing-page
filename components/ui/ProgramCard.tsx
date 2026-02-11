@@ -45,7 +45,7 @@ export function ProgramCard({ program, isExpanded, onToggle }: ProgramCardProps)
         type="button"
         onClick={onToggle}
         aria-expanded={isExpanded ? 'true' : 'false'}
-        className={`w-full flex items-start justify-between ${program.isKids ? 'pt-12 px-6 pb-6' : 'p-6'} text-left cursor-pointer`}
+        className={`w-full flex items-start justify-between ${program.isKids ? 'pt-12 px-6 pb-6' : 'p-6'} text-left cursor-pointer rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-blue focus-visible:ring-offset-2`}
       >
         <div className="flex items-start gap-4 pr-4">
           <div
@@ -68,7 +68,7 @@ export function ProgramCard({ program, isExpanded, onToggle }: ProgramCardProps)
           </div>
         </div>
         <ChevronDown
-          className={`shrink-0 mt-1 text-gray-400 transition-transform duration-300 ${
+          className={`shrink-0 mt-1 text-gray-500 transition-transform duration-300 ${
             isExpanded ? `rotate-180 ${program.isKids ? 'text-brand-burgundy' : 'text-brand-blue'}` : ''
           }`}
           size={20}

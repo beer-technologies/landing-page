@@ -2,9 +2,9 @@ import { SectionWrapper } from '@/components/ui/SectionWrapper';
 
 export function OurStorySection() {
   return (
-    <SectionWrapper id="our-story" bgColor="bg-gray-50">
+    <SectionWrapper id="our-story" bgColor="bg-warm-gray-50">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">
+        <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-8 text-center tracking-tight">
           Our Story
         </h2>
 
@@ -25,10 +25,15 @@ export function OurStorySection() {
             a generation of builders, innovators, and problem-solvers equipped for
             global relevance.
           </p>
-          <p className="text-xl font-semibold text-gray-900 border-l-4 border-brand-blue pl-6 mt-8">
-            At Be&apos;er, we don&apos;t just teach technology. We build capability,
-            confidence, and careers.
-          </p>
+          <blockquote className="relative bg-brand-blue/5 rounded-xl p-6 md:p-8 mt-8 border-l-4 border-brand-blue">
+            <span className="absolute top-1 left-3 text-6xl text-brand-blue/20 font-serif leading-none" aria-hidden="true">
+              &ldquo;
+            </span>
+            <p className="text-xl md:text-2xl font-display font-bold text-gray-900 leading-snug">
+              We don&apos;t just teach technology. We build capability, confidence
+              and careers.
+            </p>
+          </blockquote>
         </div>
       </div>
     </SectionWrapper>

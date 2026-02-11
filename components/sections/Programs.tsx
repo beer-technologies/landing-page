@@ -1,18 +1,18 @@
 import { useState } from 'react';
+import { programs } from '@/data/programs';
 import { SectionWrapper } from '@/components/ui/SectionWrapper';
 import { ProgramCard } from '@/components/ui/ProgramCard';
-import { programs } from '@/data/programs';
 
 export function ProgramsSection() {
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
   return (
-    <SectionWrapper id="programs" bgColor="bg-gray-50">
+    <SectionWrapper id="programs" bgColor="bg-warm-gray-50">
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-4 tracking-tight">
           Our Programs
         </h2>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+        <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto">
           Launch your career with industry-aligned skills. We offer structured
           bootcamps and intensive programs designed to equip learners with practical,
           job-ready digital skills.
