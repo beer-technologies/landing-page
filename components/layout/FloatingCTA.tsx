@@ -44,8 +44,15 @@ export function FloatingCTA() {
       className={`fixed bottom-0 left-0 right-0 z-40 p-4 bg-white/95 backdrop-blur-sm border-t border-gray-200 md:hidden transition-transform duration-300 ${
         isVisible ? 'translate-y-0' : 'translate-y-full'
       }`}
+      aria-hidden={!isVisible}
     >
-      <Button variant="primary" size="lg" href="#waitlist" className="w-full">
+      <Button
+        variant="primary"
+        size="lg"
+        href="#waitlist"
+        className="w-full"
+        tabIndex={isVisible ? 0 : -1}
+      >
         Join the Waitlist
       </Button>
     </div>
