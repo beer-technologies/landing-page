@@ -1,5 +1,11 @@
-import { BookOpen, Hammer, UserCheck, TrendingUp, RefreshCw } from 'lucide-react';
-import type { LucideIcon } from 'lucide-react';
+import {
+  BookOpen,
+  Hammer,
+  UserCheck,
+  TrendingUp,
+  RefreshCw,
+  type LucideIcon,
+} from 'lucide-react';
 
 export interface DeliveryModelItem {
   stepNumber: number;

@@ -6,10 +6,10 @@ export function DeliveryModelSection() {
   return (
     <SectionWrapper id="delivery-model">
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-4 tracking-tight">
           Our Delivery Model
         </h2>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+        <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto">
           Building Digital Skills. Strengthening Teams. Creating Impact.
         </p>
       </div>
